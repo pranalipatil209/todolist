@@ -1,0 +1,18 @@
+.add-todo-container {
+    margin: 20px;
+}
+.todo-card {
+    cursor: pointer;
+}
+.trash-icon {
+    display: none;
+}
+.todo-card:hover {
+    background-color: lightgray;
+}
+.todo-card:hover .trash-icon {
+    display: block;
+}
+.MuiTypography-root {
+    padding-top: 5px;
+}
